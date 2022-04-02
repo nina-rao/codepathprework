@@ -49,7 +49,7 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 I utilized the following resources to help supplement my development (all work is my own):
 https://www.w3schools.com/tags/tag_img.asp
 https://www.quackit.com/css/css_color_codes.cfm
-stackoverflow.com
+www.stackoverflow.com
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
 [YOUR ANSWER HERE]
