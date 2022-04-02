@@ -39,7 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-These gifs show standard gameplay including starting the game, sequences being played, the user guessing (correctly & incorrectly), the user being allowed to keep playing as they haven't maxed out strikes, sequences repeating after incorrect guesses, and the user winning the game.
+These gifs show standard gameplay including starting the game, sequences being played, the user guessing (correctly & incorrectly), the user being allowed to keep playing as they haven't maxed out strikes, sequences repeating after incorrect guesses, the user winning the game, and the user losing the game after more than 2 strikes.
 
 
 ![gamestart](https://user-images.githubusercontent.com/72675759/161359847-6b60154b-3b94-4c4f-b73f-5c99d3078d0f.gif)
@@ -47,8 +47,7 @@ These gifs show standard gameplay including starting the game, sequences being p
 
 ![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/72675759/161360118-fcaae033-48c5-4d77-a6c3-608002494601.gif)
 
-![](gif3-link-here)
-![](gif4-link-here)
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/72675759/161360493-d06d5458-02e1-4768-b396-bbc28e012c96.gif)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
