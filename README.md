@@ -57,7 +57,7 @@ https://www.quackit.com/css/css_color_codes.cfm,
 www.stackoverflow.com
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-While the guided prework made creating this project easier and more streamlined, when it came time to add optional features, I encountered some difficulties. 
+While the guided prework made creating this project easier and more streamlined, when it came time to add optional features, I encountered some difficulties. Changing the playback speeds after each consecutive turn gave me a few difficulties because at first I wasn't sure where to decrement the hold time. I went back through the functions provided by CodePath and made sure I fully understood how input would be processed in playClueSequence(). Improving my comprehension as well as using the console debugger helped me find the solution. Another problem I encountered was randomizing the sequence using JavaScript's Math.random function. While I was familiar with random number generation in languages such as C++ and Java, I found I had to read documentation on Math.random and do some testing with it before actually implementing it in my program. Once I knew how it worked, I did further research as I knew the functions in script.js access the clue sequence by iterating through indexes in an array, I wanted to be able to populate an array using the random number generation. It took some playing around, but with my newly gained knowledge in working with JavaScript's Math library and data structures, I solved the problem. The final optional feature that gave me trouble was adding images to the buttons. Alignment, sizing, and styling of images in CSS and HTML were new to me. After reading the link provided about the img tab and some further online research, I was able to come up with a way to put images on buttons while not altering the layout of other elements. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
@@ -74,7 +74,7 @@ While the guided prework made creating this project easier and more streamlined,
 
 ## License
 
-    Copyright [YOUR NAME]
+    Copyright [Nina Rao]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
