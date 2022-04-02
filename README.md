@@ -39,7 +39,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![] gamestart.gif
+
+
+![gamestart](https://user-images.githubusercontent.com/72675759/161359847-6b60154b-3b94-4c4f-b73f-5c99d3078d0f.gif)
+
 ![](gif2-link-here)
 ![](gif3-link-here)
 ![](gif4-link-here)
