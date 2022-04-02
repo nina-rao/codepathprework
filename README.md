@@ -47,12 +47,12 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 I utilized the following resources to help supplement my development (all work is my own):
-https://www.w3schools.com/tags/tag_img.asp
-https://www.quackit.com/css/css_color_codes.cfm
+https://www.w3schools.com/tags/tag_img.asp,
+https://www.quackit.com/css/css_color_codes.cfm,
 www.stackoverflow.com
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words) 
-[YOUR ANSWER HERE]
+While the guided prework made creating this project easier and more streamlined, when it came time to add optional features, I encountered some difficulties. 
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
 [YOUR ANSWER HERE]
