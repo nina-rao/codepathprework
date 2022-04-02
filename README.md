@@ -75,7 +75,7 @@ Given more time on this prework project, I would first attempt to reduce the sma
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording]https://youtu.be/I05aav_asJQ
+[My 5-minute Interview Recording](https://youtu.be/I05aav_asJQ)
 
 
 ## License
