@@ -6,7 +6,8 @@ Submitted by: **Nina Rao**
 
 Time spent: **3.5** hours spent in total
 
-Link to project: (https://glitch.com/edit/#!/spangled-oasis-mackerel)
+Link to project code: (https://glitch.com/edit/#!/spangled-oasis-mackerel)
+Link to live project: (https://spangled-oasis-mackerel.glitch.me)
 
 ## Required Functionality
 
