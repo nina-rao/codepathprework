@@ -1,5 +1,4 @@
 // global constants
-const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
 
 //Global Variables
@@ -10,6 +9,7 @@ var tonePlaying = false;
 var volume = 0.5;
 var guessCounter = 0;
 var clueHoldTime = 1000; //how long to hold each clue's light/sound
+var cluePauseTime = 333; //how long to pause in between clues
 var numMistakes;
 
 function startGame() {
@@ -51,13 +51,17 @@ function playClueSequence() {
     // for each clue that is revealed so far
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms");
     setTimeout(playSingleClue, delay, pattern[i]); // set a timeout to play that clue
-    delay += (clueHoldTime - 100);
+    delay += clueHoldTime;
     delay += cluePauseTime;
+
+    // speed up for each turn
+    clueHoldTime -= 10;
+    cluePauseTime -= 5;
   }
 }
 
 function generatePattern() {
- pattern = Array.from({length: 8}, () => Math.floor(Math.random() * 5) + 1);
+  pattern = Array.from({ length: 8 }, () => Math.floor(Math.random() * 5) + 1);
 }
 
 function guess(btn) {
@@ -83,13 +87,12 @@ function guess(btn) {
   } else {
     //incorrect guess
     numMistakes++;
-    if(numMistakes > 2) {
-     loseGame();
-
+    if (numMistakes > 2) {
+      loseGame();
     } else {
       // give player another chance, play same sequence again
-       alert("Wrong! Try again.");
-       playClueSequence();
+      alert("Wrong! Try again.");
+      playClueSequence();
     }
   }
 }
