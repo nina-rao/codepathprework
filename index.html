@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>✨Nina's Light and Sound Memory Game✨</h1>
+    <p>
+      Welcome to my game. Instructions are as follows: The game will show you a
+      pattern and your job is to memorize the pattern and repeat it back by
+      pressing buttons in the right order. You get up to 2 mistakes before you lose the game. Good luck!
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+    <div id="gameButtonArea">
+      <button 
+        type = "button"
+        id="button1"
+        onmousedown="startTone(1)"
+        onmouseup="stopTone()"
+        onclick="guess(1)"
+      ><img src="https://cdn.glitch.global/9ad40326-262a-45ba-af3c-2a97ed2bd86c/keroppi.jpg?v=1648855400770" alt= "keroppi" width="100" height ="100"></button>
+      <button
+        id="button2"
+        onmousedown="startTone(2)"
+        onmouseup="stopTone()"
+        onclick="guess(2)"
+      ><img src="https://cdn.glitch.global/9ad40326-262a-45ba-af3c-2a97ed2bd86c/cinnamoroll.jpg?v=1648855394247" alt= "cinnamoroll" width="100" height ="100"></button>
+      <button
+        id="button3"
+        onmousedown="startTone(3)"
+        onmouseup="stopTone()"
+        onclick="guess(3)"
+      ><img src="https://cdn.glitch.global/9ad40326-262a-45ba-af3c-2a97ed2bd86c/hk.png?v=1648856108419" alt= "hk" width="100" height ="100"></button>
+      <button
+        id="button4"
+        onmousedown="startTone(4)"
+        onmouseup="stopTone()"
+        onclick="guess(4)"
+      ><img src="https://cdn.glitch.global/9ad40326-262a-45ba-af3c-2a97ed2bd86c/purin.png?v=1648855406707" alt= "purin" width="100" height ="100"></button>
+      <button
+        id="button5"
+        onmousedown="startTone(5)"
+        onmouseup="stopTone()"
+        onclick="guess(5)"
+      ><img src="https://cdn.glitch.global/9ad40326-262a-45ba-af3c-2a97ed2bd86c/kuromi.webp?v=1648855404008" alt= "kuromi" width="100" height ="100"></button>
+    </div>
+  </body>
+</html>
