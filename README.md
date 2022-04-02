@@ -40,10 +40,12 @@ The following **additional** features are implemented:
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
 
-
+This gif shows the player starting the game
 ![gamestart](https://user-images.githubusercontent.com/72675759/161359847-6b60154b-3b94-4c4f-b73f-5c99d3078d0f.gif)
 
-![](gif2-link-here)
+This gif shows gameplay including guessing wrong, the sequence repeating, and the player winning
+![ezgif com-gif-maker (1)](https://user-images.githubusercontent.com/72675759/161360118-fcaae033-48c5-4d77-a6c3-608002494601.gif)
+
 ![](gif3-link-here)
 ![](gif4-link-here)
 
